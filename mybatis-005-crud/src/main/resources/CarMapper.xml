@@ -31,7 +31,7 @@
         select
             id,
             car_num as carNum,
-            brand,
+            brand ,
             guide_price as guidePrice,
             produce_time as produceTime,
             car_type as carType,

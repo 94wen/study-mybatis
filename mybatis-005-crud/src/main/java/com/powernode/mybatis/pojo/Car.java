@@ -5,14 +5,14 @@ package com.powernode.mybatis.pojo;
  * @Data 2023/6/2 18:48
  */
 public class Car {
-    private long id;
+    private Long id;
     private String carNum;
     private String brand;
     private double guidePrice;
     private String produceTime;
     private String carType;
 
-    public Car(long id, String carNum, String brand, double guidePrice, String produceTime, String carType) {
+    public Car(Long id, String carNum, String brand, double guidePrice, String produceTime, String carType) {
         this.id = id;
         this.carNum = carNum;
         this.brand = brand;
@@ -21,11 +21,11 @@ public class Car {
         this.carType = carType;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -80,4 +80,6 @@ public class Car {
                 ", carType='" + carType + '\'' +
                 '}';
     }
+
+
 }
